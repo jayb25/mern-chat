@@ -1,0 +1,22 @@
+{
+  "name": "mern-chat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Back-end/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayb25/mern-chat.git"
+  },
+  "author": "Jay Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayb25/mern-chat/issues"
+  },
+  "homepage": "https://github.com/jayb25/mern-chat#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "description": ""
+}
