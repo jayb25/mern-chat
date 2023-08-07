@@ -1,11 +1,13 @@
 const express = require("express");
+const dotenv = require("dotenv");
 const { chats } = require("./data/data");
 const res = require("express/lib/response");
 
 const app = express();
+dotenv.config();
 
 app.get("/", (req, res) => {
-  res.send("API is running");
+  res.send("API is running successfully");
 });
 
 app.get("/api/chat", (req, res) => {
@@ -13,6 +15,10 @@ app.get("/api/chat", (req, res) => {
 });
 
 app.get("/api/chat/:id", (req, res) => {
-  console.log(req);
+  //console.log(req.params.id);
+  const singleChat = chats.find((c) => c._id === req.params.id);
+  res.send(singleChat);
 });
-app.listen(5000, console.log("Server started on port 5000"));
+
+const PORT = process.env.PORT || 5000;
+app.listen(5000, console.log(`Server started on PORT ${PORT}`));
