@@ -3,7 +3,6 @@ const dotenv = require("dotenv");
 const { chats } = require("./data/data");
 const res = require("express/lib/response");
 const userRoutes = require("./routes/userRoutes");
-const colors = require("colors");
 const connectDB = require("./config/db");
 const colors = require("colors");
 
