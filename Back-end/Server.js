@@ -4,9 +4,12 @@ const { chats } = require("./data/data");
 const res = require("express/lib/response");
 const userRoutes = require("./routes/userRoutes");
 const colors = require("colors");
+const connectDB = require("./config/db");
+const colors = require("colors");
 
-const app = express();
 dotenv.config();
+connectDB();
+const app = express();
 
 app.get("/", (req, res) => {
   res.send("API is running successfully");
@@ -15,4 +18,4 @@ app.get("/", (req, res) => {
 app.use('/api/user', userRoutes)
 
 const PORT = process.env.PORT || 5000;
-app.listen(5000, console.log(`Server started on PORT ${PORT}`));
+app.listen(5000, console.log(`Server started on PORT ${PORT}`.yellow.bold));
