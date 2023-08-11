@@ -1,2 +1,2 @@
 # Convo-Connect 
-mern chat web application
+Convo-Connect web chat application
