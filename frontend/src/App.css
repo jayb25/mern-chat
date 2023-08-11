@@ -8,3 +8,16 @@
     background-position: center;
     color: black;
 }
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: blueviolet;
+}
+
+/*Handle on Hover*/
+::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
