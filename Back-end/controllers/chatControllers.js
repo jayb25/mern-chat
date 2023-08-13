@@ -192,4 +192,12 @@ const addToGroup = asyncHandler(async (req, res) => {
     res.json(added);
   }
 });
-module.exports = {accessChat, fetchChats, createGroupChat, renameGroup, addToGroup, removeFromGroup};
+
+module.exports = {
+  accessChat,
+  fetchChats,
+  createGroupChat,
+  renameGroup,
+  addToGroup,
+  removeFromGroup,
+};

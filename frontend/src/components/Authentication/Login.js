@@ -6,7 +6,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useToast } from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
-import { ChatState } from "../../context/ChatProvider";
+import { ChatState } from "../../Context/ChatProvider";
 
 const Login = () => {
   const [show, setShow] = useState(false);
@@ -98,7 +98,7 @@ const Login = () => {
         </InputGroup>
       </FormControl>
       <Button
-        colorScheme="blue"
+        colorScheme="green"
         width="100%"
         style={{ marginTop: 15 }}
         onClick={submitHandler}
@@ -112,10 +112,10 @@ const Login = () => {
         width="100%"
         onClick={() => {
           setEmail("guest@example.com");
-          setPassword("123456");
+          setPassword("password");
         }}
       >
-        Get Guest User Credentials
+        Click here to get Guest User Credentials
       </Button>
     </VStack>
   );
