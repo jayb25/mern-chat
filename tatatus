@@ -1,0 +1,85 @@
+[33mcommit 1b58a0bb2a50dcd1238393d73b844879aba746cc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dilawer <dil081120@gmail.com>
+Date:   Thu Aug 10 19:13:11 2023 +0930
+
+    Added User authentication, updated DB, Used Bcrypt to add extra layer of security, Added search User and create Chat API, Page
+
+[33mcommit 895c724c7c753c93534dc8d9649281b192035b00[m
+Author: Dilawer <dil081120@gmail.com>
+Date:   Thu Aug 10 19:10:15 2023 +0930
+
+    Updated Signup & Login Page background
+
+[33mcommit f3e377567393e471e39365bd94e90a8fe1cb587f[m
+Author: Rocket-Kay <kanishka278@gmail.com>
+Date:   Wed Aug 9 19:03:29 2023 +0930
+
+    Corrected an import that was throwing an error.
+
+[33mcommit 19a9077dedc1152d85f929c027d20987d7212941[m
+Author: Rocket-Kay <kanishka278@gmail.com>
+Date:   Wed Aug 9 18:19:23 2023 +0930
+
+    Setup the database from MongoDB and then, connected the database to the backend of the application.
+
+[33mcommit 338e62ed79f4bcd70271ec7e5733a90c418b88be[m
+Author: Rocket-Kay <kanishka278@gmail.com>
+Date:   Wed Aug 9 16:46:31 2023 +0930
+
+    Added the design for the login and signup pages in the application, and added a functionality for a guest user to use the app.
+
+[33mcommit da535a21f4cc639960650694d8dbab32b2f8c0fd[m
+Author: Bhupendra <bhupendrabc71@gmail.com>
+Date:   Wed Aug 9 15:46:30 2023 +0930
+
+    models/Models
+
+[33mcommit 4353c0be7f5b7c776206de5360a686dcc8783b3d[m
+Author: Bhupendra <bhupendrabc71@gmail.com>
+Date:   Wed Aug 9 15:35:34 2023 +0930
+
+    Changes made Back-end/Models/userModel.js and new file: Back-end/controllers/userControllers.js and new file:   Back-end/routes/userRoutes.js
+
+[33mcommit 144ce14bf91afb185774eeef4d803d2c65214b2f[m
+Author: jayb25 <91479113+jayb25@users.noreply.github.com>
+Date:   Wed Aug 9 14:35:36 2023 +0930
+
+    Added the unsaved data for the models created.
+
+[33mcommit da3f2a8d74dc198c4c00bd9d448f809b9693ecac[m
+Author: jayb25 <91479113+jayb25@users.noreply.github.com>
+Date:   Wed Aug 9 14:23:23 2023 +0930
+
+    Defining the data models for the app for MongoDB
+
+[33mcommit 661768ebd0a2c77792c02b4ecefc6cf584ee587c[m
+Author: Rocket-Kay <kanishka278@gmail.com>
+Date:   Wed Aug 9 00:14:23 2023 +0930
+
+    Created the frontend files, and added a react project to it using chakra UI. Then connected the frontend to the backend. Then set up the react router dom, and finally tested fetching data in the backend from using the front end.
+
+[33mcommit 7f92387de44659386bf3cb1e5ae05db04b7858fc[m
+Author: jayb25 <91479113+jayb25@users.noreply.github.com>
+Date:   Mon Aug 7 23:19:17 2023 +0930
+
+    created an env file to hide the port number
+    and exported dotenv also requested parameter id
+    installed nodemon package to update the servers in realtime
+
+[33mcommit e30bddf70344765693d48a9b8f2257c741269f20[m
+Author: jayb25 <91479113+jayb25@users.noreply.github.com>
+Date:   Mon Aug 7 19:30:28 2023 +0930
+
+    Changes made to server file
+
+[33mcommit a77951313480f7a583c46051a70b4f5a0da11964[m
+Author: jayb25 <91479113+jayb25@users.noreply.github.com>
+Date:   Mon Aug 7 19:17:20 2023 +0930
+
+    Created a server and API
+
+[33mcommit fed3567babc3cc23e70687f1a0a26f7e1a982b9b[m
+Author: jayb25 <91479113+jayb25@users.noreply.github.com>
+Date:   Mon Aug 7 16:08:37 2023 +0930
+
+    Initial commit
